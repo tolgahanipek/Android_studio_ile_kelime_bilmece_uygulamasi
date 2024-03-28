@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.vungle:publisher-sdk-android:6.7.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a21065974f3ef2c6fc660989f2037e4b/jetified-publisher-sdk-android-6.7.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a21065974f3ef2c6fc660989f2037e4b/jetified-publisher-sdk-android-6.7.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a21065974f3ef2c6fc660989f2037e4b/jetified-publisher-sdk-android-6.7.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a21065974f3ef2c6fc660989f2037e4b/jetified-publisher-sdk-android-6.7.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a21065974f3ef2c6fc660989f2037e4b/jetified-publisher-sdk-android-6.7.0/jars/libs/androidx-vng-moat-mobile-app-kit-2.6.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vungle/publisher-sdk-android/6.7.0/9a94c2fe024f7fd3acd2f988012ae6c0fc43fb5f/publisher-sdk-android-6.7.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

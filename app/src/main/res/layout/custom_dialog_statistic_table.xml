@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/customBgColor"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/customBgCloseColor"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="İstatistik Tablosu"
+            android:textStyle="bold"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/customTextColor"
+            android:textSize="27sp"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/custom_dialog_statistic_table_ImageViewClose"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:layout_width="45dp"
+            android:scaleType="fitXY"
+            android:id="@+id/custom_dialog_statistic_table_ImageViewClose"
+            android:src="@drawable/ic_close"
+            android:layout_alignParentRight="true"
+            android:layout_height="45dp"/>
+
+
+
+    </RelativeLayout>
+
+    <!-- Toplam Soru Kısmı -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Toplam Soru Sayısı:"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/customTextColor"
+        android:layout_height="wrap_content"/>
+    
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:min="0"
+        android:id="@+id/custom_dialog_statistic_table_progressBarQuestionCount"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_height="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="0 / 10"
+        android:textSize="17sp"
+        android:id="@+id/custom_dialog_statistic_table_textViewQuestionCount"
+        android:layout_gravity="end"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="3dp"
+        android:textColor="@color/customTextColor"
+        android:layout_height="wrap_content"/>
+
+    <!-- Toplam Kelime Kısmı -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Toplam Kelime Sayısı:"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/customTextColor"
+        android:layout_height="wrap_content"/>
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:min="0"
+        android:id="@+id/custom_dialog_statistic_table_progressBarWordCount"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_height="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="0 / 10"
+        android:textSize="17sp"
+        android:id="@+id/custom_dialog_statistic_table_textViewWordCount"
+        android:layout_gravity="end"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="3dp"
+        android:textColor="@color/customTextColor"
+        android:layout_height="wrap_content"/>
+
+    <!-- Toplam Yanlış Tahmin Kısmı -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Toplam Yanlış Tahmin Sayısı:"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/customTextColor"
+        android:layout_height="wrap_content"/>
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:min="0"
+        android:id="@+id/custom_dialog_statistic_table_progressBarFalseGuessCount"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_height="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="0 / 10"
+        android:textSize="17sp"
+        android:id="@+id/custom_dialog_statistic_table_textViewFalseGuessCount"
+        android:layout_gravity="end"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="3dp"
+        android:textColor="@color/customTextColor"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="35dp"
+        android:visibility="gone"
+        android:id="@+id/custom_dialog_statistic_table_linearLayout"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="170dp"
+            android:text="Ana Menüye Dön"
+            android:textAllCaps="false"
+            android:textSize="17sp"
+            android:id="@+id/custom_dialog_statistic_table_btnMainMenu"
+            android:textColor="@color/customBtnTextColor"
+            android:background="@drawable/btn_round_bg_2"
+            android:textStyle="bold"
+            android:layout_height="50dp"/>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_marginLeft="15dp"
+            android:text="Tekrar Oyna"
+            android:textAllCaps="false"
+            android:textSize="17sp"
+            android:id="@+id/custom_dialog_statistic_table_btnPlayAgain"
+            android:textColor="@color/customBtnTextColor"
+            android:background="@drawable/btn_round_bg_2"
+            android:textStyle="bold"
+            android:layout_height="50dp"/>
+
+
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:background="@color/customBgCloseColor"
+        android:layout_height="25dp"/>
+
+</LinearLayout>

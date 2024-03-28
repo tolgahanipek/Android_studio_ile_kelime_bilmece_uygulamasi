@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FF6A30"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/customBgCloseColor"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Market Menüsü"
+            android:textStyle="bold"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/customTextColor"
+            android:textSize="27sp"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/custom_dialog_shop_ImageViewClose"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:layout_width="45dp"
+            android:scaleType="fitXY"
+            android:id="@+id/custom_dialog_shop_ImageViewClose"
+            android:src="@drawable/ic_close"
+            android:layout_alignParentRight="true"
+            android:layout_height="45dp"/>
+
+
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:id="@+id/custom_dialog_shop_recyclerView"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:background="@color/customBgCloseColor"
+        android:layout_height="25dp"/>
+
+</LinearLayout>

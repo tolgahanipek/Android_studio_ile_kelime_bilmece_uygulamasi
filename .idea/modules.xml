@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Kelime_Bilmece_Oyunum.iml" filepath="$PROJECT_DIR$/.idea/modules/Kelime_Bilmece_Oyunum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Kelime_Bilmece_Oyunum.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Kelime_Bilmece_Oyunum.app.iml" />
+    </modules>
+  </component>
+</project>
